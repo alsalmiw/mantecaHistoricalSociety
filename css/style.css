@@ -9,9 +9,9 @@
 }
 
 /* NAVIGATION */
-.navbar{
+.navbar1{
     background-color: var(--secondary-background);
-    height: 6vh;
+    height: 6.5vh;
     padding: 0;
 }
 
@@ -27,7 +27,7 @@
     background-color: var(--teritary-background);
     border: none;
     margin-top: 1%;
-    margin-right: 5px;
+    margin-right: 15px;
     color:var(--secondary-color);
     font-weight: 600;
     border-radius: 20px;
@@ -59,13 +59,16 @@
 
 }
 
-
-
 .navbar-dark .navbar-nav .nav-link{
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
 }
 
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
 
 /* ---------------- SMALLER SCREENS ADJUSTMENT ---------------- */
 
@@ -73,7 +76,7 @@
 
     .logo{
         padding-top: 0;
-        height: 6vh;
+        height: 6.5vh;
         
     }
 
