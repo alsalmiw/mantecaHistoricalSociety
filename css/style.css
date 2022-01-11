@@ -107,7 +107,7 @@
 }
 
 .titleBg{
-    background-color: var(--headers);
+    background-color: #2D3042;
     padding-top: 3%;
     padding-bottom: 3%;
 }
@@ -152,4 +152,14 @@
     margin: 0 0 5% 5%;
     font-size: 2vw;
     padding-top: 3%;
+}
+
+.location{
+    color: white;
+    margin: 0 0 5% 10%;
+    font-size: 2vw;
+}
+
+.locationMargin{
+    margin: 0 5% 5% 0;
 }
