@@ -13,16 +13,19 @@
   </head>
   <body>
     <!-- First Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark">
+    <nav class="navbar navbar-expand-md navbar-dark navbar1">
       <div class="container-fluid p-0">
         <img class="logo" src="./images/logo.svg" />
+        <div class="donateContainer">
+           <button class="donateBtn d-md-none ">Donate</button>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <!-- <span class="navbar-toggler-icon"></span> -->
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-              <button class="donateBtn">Donate</button>
+          <ul class="navbar-nav nav1 ">
+              <button class="donateBtn d-none d-md-block">Donate</button>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
