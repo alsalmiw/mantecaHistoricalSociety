@@ -101,3 +101,55 @@
     }
     
 }
+    
+.titleMargin{
+    margin-left: 5%;
+}
+
+.titleBg{
+    background-color: var(--headers);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.titleText{
+    color: white;
+    font-size: 3vw;
+}
+
+.paragraphMargin{
+    margin: 5% 0 5% 8%;
+    font-size: 2vw;
+}
+
+.imgResponsive{
+    max-width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.secondBg{
+    background-color: var(--secondary-background);
+    padding-top: 3%;
+}
+
+.historyParagraph{
+    color: white;
+    margin: 0 0 5% 5%;
+    font-size: 2vw;
+}
+
+.bTitleText{
+    color: black;
+    font-size: 3vw;
+    padding-top: 3%;
+}
+
+
+.docentParagraph{
+    margin: 0 0 5% 5%;
+    font-size: 2vw;
+    padding-top: 3%;
+}
