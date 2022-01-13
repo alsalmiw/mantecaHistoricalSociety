@@ -121,15 +121,15 @@
 }
 
 .paragraphMargin{
-    margin: 5% 0 5% 8%;
+    margin: 3% 0 3% 8%;
     font-size: 2vw;
 }
 
 .imgResponsive{
     max-width: 100%;
     height: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     margin-right: 5%;
 }
 
@@ -140,7 +140,7 @@
 
 .historyParagraph{
     color: white;
-    margin: 0 0 5% 5%;
+    margin: 0 0 3% 5%;
     font-size: 2vw;
 }
 
@@ -152,17 +152,41 @@
 
 
 .docentParagraph{
-    margin: 0 0 5% 5%;
+    margin: 0 0 3% 5%;
     font-size: 2vw;
     padding-top: 3%;
 }
 
 .location{
     color: white;
-    margin: 0 0 5% 10%;
+    margin: 0 0 3% 10%;
     font-size: 2vw;
 }
 
 .locationMargin{
-    margin: 0 5% 5% 0;
+    margin: 0 5% 3% 0;
+}
+
+.radioMargin{
+    color: white;
+    font-size: 2vw;
+}
+.radioMarginLeft{
+    color: white;
+    font-size: 2vw;
+    margin-left: 20%;
+}
+
+.formMarginLeft{
+    color: white;
+    font-size: 2vw;
+    margin-left: 10%;
+}
+.btnMargin{
+    margin-right: 15%;
+    color: #EE8055;
+    border: 2px solid #EE8055;
+    background-color: white;
+    padding: 8px 50px;
+    font-size: 2vw;
 }
