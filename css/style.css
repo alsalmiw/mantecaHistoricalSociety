@@ -190,3 +190,11 @@
     padding: 8px 50px;
     font-size: 2vw;
 }
+
+.donateTitle{
+    margin-left: 5%;
+    color: black;
+    font-size: 3vw;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
