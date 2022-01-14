@@ -65,6 +65,9 @@
     justify-content: end;
     padding-right: 20px;
 }
+.navbar-nav a{
+    text-decoration: none;
+}
 
 .navbar2{
     display: flex;
@@ -233,6 +236,12 @@
     padding-top: 3%;
 }
 
+.blueBtn{
+    color: white;
+    background-color: rgb(var(--secondary-background));
+    width: 20vw;
+}
+
 
 /* ---------------- SMALLER SCREENS ADJUSTMENT ---------------- */
 
@@ -373,6 +382,12 @@
 .titleText{
     color: white;
     font-size: 1.5rem;
+}
+
+.blueBtn{
+    color: white;
+    background-color: rgb(var(--secondary-background));
+    width: 50vw;
 }
 
 }
