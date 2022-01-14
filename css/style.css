@@ -91,7 +91,7 @@
 }
 /*---------HERO-------- */
 .carousel-images{
-    max-height: 85vh;
+    height: 80vh;
     object-fit: cover;
 }
 .carousel-item:after {
@@ -120,6 +120,7 @@
   .caption-header{
       font-weight: bold;
       font-size: 18px;
+      text-transform: uppercase;
   }
   .caption-title{
     font-weight: bold;
@@ -132,6 +133,11 @@
   .carousel-control-prev, .carousel-control-next{
       padding-top: 45vh;
   }
+  .cover{
+    object-fit: cover;
+    width: 100%;
+    max-height: 40vh;
+  }
 
   /* NEWSLETTER */
   .newsletter{
@@ -141,6 +147,92 @@
   .yellowBorder{
       border: solid 3px var(--line);
   }
+
+  .image-container {
+    position: relative;
+  }
+
+  .image-caption{
+    position: absolute;
+    text-align: start;
+    width: 100%;
+    right: 0%;
+   /* overflow: hidden; */
+    bottom: 5px;
+    color: white;
+    padding: 5px 25px;
+    background-color:rgba(var(--primary-color), 0.8);
+    /* height: 50px;  */
+  }
+
+  .exHeight{
+      height: 400px;
+      object-fit: cover;
+  }
+ 
+  .titleText{
+    color: white;
+    font-size: 2rem;
+}
+
+  /* EXHIBITIONS */
+
+  .wrapper{
+    overflow: hidden;
+    max-width: 31vw;
+    max-height: auto;
+}
+
+    
+.titleMargin{
+    margin-left: 5%;
+}
+
+.titleBg{
+    background-color: rgb(var(--headers));
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+
+.paragraphMargin{
+    margin: 5% 0 5% 8%;
+    font-size: 2vw;
+}
+
+.imgResponsive{
+    max-width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.secondBg{
+    background-color: var(--secondary-background);
+    padding-top: 3%;
+}
+
+.historyParagraph{
+    color: white;
+    margin: 0 0 5% 5%;
+    font-size: 2vw;
+}
+
+.bTitleText{
+    color: black;
+    font-size: 3vw;
+    padding-top: 3%;
+}
+
+
+.docentParagraph{
+    margin: 0 0 5% 5%;
+    font-size: 2vw;
+    padding-top: 3%;
+}
+
 
 /* ---------------- SMALLER SCREENS ADJUSTMENT ---------------- */
 
@@ -171,8 +263,7 @@
         color:var(--secondary-color)
     }
     .fas{
-        font-size: 2.9rem;
-        color: var(--secondary-color);
+        font-size: 2.5rem;
     }
     .nav-item a{
         color: var(--secondary-color);
@@ -217,7 +308,7 @@
         font-weight: bold;
         font-size: 1.5rem;
     }
-    .carousel-caption p{
+    .carousel-caption p, .caption-header p{
         font-size: 0.9rem;
     }
     .fa-chevron-left, .fa-chevron-right{
@@ -231,15 +322,34 @@
         width: 10%;
         padding-top: 25vh;
     }
+
+    .cover{
+        object-position: 100% 40%;
+      }
+    
+      .newsletterSM{
+        background-color: var(--teritary-background);
+        color: var(--secondary-color);
+        height: 3.5rem;
+      }
+      .titleText{
+        color: white;
+        font-size: 2rem;
+      }
+
+      .wrapper{
+        max-width: 100vw;
+      
+    }
 }
-@media  screen and (max-width:320px) {
+@media  screen and (max-width:425px) {
     .caption-header{
         font-size: 1.4vh;
     }
     .caption-title{
       font-size: 1.1rem;
   }
-  .carousel-caption p{
+  .carousel-caption p, .caption-header p{
       font-size: 0.8rem;
   }
   .fa-chevron-left, .fa-chevron-right{
@@ -254,63 +364,15 @@
   }
   .carousel-caption {
     bottom: 1%;
-    padding: 5px 40px;
+    padding: 10px 40px 5px 40px;
     height: 150px; 
   }
   .carousel-control-next, .carousel-control-prev{
     padding-top: 30vh;
 }
-
-}
-    
-.titleMargin{
-    margin-left: 5%;
-}
-
-.titleBg{
-    background-color: var(--headers);
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
 .titleText{
     color: white;
-    font-size: 3vw;
+    font-size: 1.5rem;
 }
 
-.paragraphMargin{
-    margin: 5% 0 5% 8%;
-    font-size: 2vw;
-}
-
-.imgResponsive{
-    max-width: 100%;
-    height: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: 5%;
-}
-
-.secondBg{
-    background-color: var(--secondary-background);
-    padding-top: 3%;
-}
-
-.historyParagraph{
-    color: white;
-    margin: 0 0 5% 5%;
-    font-size: 2vw;
-}
-
-.bTitleText{
-    color: black;
-    font-size: 3vw;
-    padding-top: 3%;
-}
-
-
-.docentParagraph{
-    margin: 0 0 5% 5%;
-    font-size: 2vw;
-    padding-top: 3%;
 }
