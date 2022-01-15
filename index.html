@@ -26,69 +26,83 @@
     <div class="container-fluid p-0 overflow-hidden">
       <div class="row">
         <div class="col">
-          <!-- First Navigation -->
-          <nav class="navbar navbar-expand-md navbar-dark navbar1 p-0">
-            <div class="container-fluid p-0">
-              <img class="logo mt-lg-3" src="./images/logo.svg" />
-              <div class="donateContainer d-flex justify-content-end">
-                <a href="./pages/donate.htm">
-                  <button class="donateBtn d-md-none">Donate</button>
-                </a>
-              </div>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <i class="fas fa-bars"></i>
-              </button>
-              <div
-                class="collapse navbar-collapse justify-content-end"
-                id="navbarNav"
-              >
-                <ul class="navbar-nav">
-                  <a href="./pages/donate.html">
-                    <button class="donateBtn d-none d-md-block">Donate</button>
-                  </a>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/membership.html"
-                      >Membership</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/boardMembers.html"
-                      >Contact</a
-                    >
-                  </li>
-                  <li class="nav-item d-md-none">
-                    <a class="nav-link" href="./pages/visit.html">Visit</a>
-                  </li>
-                  <li class="nav-item d-md-none">
-                    <a class="nav-link" href="./pages/memorials.html"
-                      >Memorials</a
-                    >
-                  </li>
-                  <li class="nav-item d-md-none">
-                    <a class="nav-link" href="./pages/newsletter.html"
-                      >Newsletter</a
-                    >
-                  </li>
-                  <li class="nav-item d-md-none">
-                    <a class="nav-link" href="./pages/docents.html">Docents</a>
-                  </li>
-                </ul>
-              </div>
+          <!-- NAVIGATION CONTAINER -->
+          <div class="row">
+            <div class="col-2 p-0 d-flex justify-content-center">
+              <!-- logo -->
+              <img class="logo mt-lg-1" src="./images/logo.svg" />
             </div>
-          </nav>
-
-          <!-- Second Navigation -->
+            <div class="col-10 p-0">
+              <div class="row p-0">
+                <div class="col-12">
+           
+                  <!-- First Navigation -->
+                  <nav class="navbar navbar-expand-md navbar-dark navbar1 p-0">
+                    <div class="container-fluid p-0">
+                     
+                      <div class="donateContainer d-flex justify-content-end">
+                        <a href="./pages/donate.htm">
+                          <button class="donateBtn d-md-none">Donate</button>
+                        </a>
+                      </div>
+                      <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                      >
+                        <i class="fas fa-bars"></i>
+                      </button>
+                      <div
+                        class="collapse navbar-collapse justify-content-end"
+                        id="navbarNav"
+                      >
+                        <ul class="navbar-nav">
+                          <a href="./pages/donate.html">
+                            <button class="donateBtn d-none d-md-block">Donate</button>
+                          </a>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/about.html">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/membership.html"
+                              >Membership</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/boardMembers.html"
+                              >Contact</a
+                            >
+                          </li>
+                          <li class="nav-item d-md-none">
+                            <a class="nav-link" href="./pages/visit.html">Visit</a>
+                          </li>
+                          <li class="nav-item d-md-none">
+                            <a class="nav-link" href="./pages/memorials.html"
+                              >Memorials</a
+                            >
+                          </li>
+                          <li class="nav-item d-md-none">
+                            <a class="nav-link" href="./pages/newsletter.html"
+                              >Newsletter</a
+                            >
+                          </li>
+                          <li class="nav-item d-md-none">
+                            <a class="nav-link" href="./pages/docents.html">Docents</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+                <div class="col-12">
+                  <!-- Second Navigation -->
           <nav class="bg-white d-none d-md-block">
             <div class="container-fluid navbar2 d-flex justify-content-end">
               <a class="nav2-link" href="./pages/visit.html">Visit</a>
@@ -100,10 +114,18 @@
                 <li><strong>Museum Hours:</strong></li>
                 <li>Open Sunday 1:00 - 4:00pm</li>
               </ul>
-              <i class="fas fa-map-marker-alt"></i>
+              <a href="https://goo.gl/maps/4rLbAvpTxMqHAGEn9" target="_blank"> <i class="fas fa-map-marker-alt"></i></a>
             </div>
           </nav>
 
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END NAVIGATION CONTAINER -->
+         
+
+          
           <!-- HERO -->
           <div
             id="carouselExampleControls"
@@ -302,7 +324,7 @@
                   </div>
 
                   <div
-                    class="exhibitsContainer image-container order3"
+                    class="exhibitsContainer image-container"
                   >
                     <img
                       class="cover exHeight"
@@ -319,7 +341,7 @@
                   </div>
 
                   <div
-                    class="exhibitsContainer image-container order4"
+                    class="exhibitsContainer image-container order3"
                   >
                     <img
                       class="cover exHeight"
@@ -337,7 +359,7 @@
                   </div>
 
                   <div
-                    class="exhibitsContainer image-container"
+                    class="exhibitsContainer image-container order4"
                   >
                     <img
                       class="cover exHeight"
@@ -387,7 +409,7 @@
                   placeholder="name@example.com"
                 />
               </div>
-              <div class="row">
+              <div class="row secondBg">
                 <div class="col-12 d-flex justify-content-center">
                   <button type="button" class="btn blueBtn">
                     <strong>SUBMIT</strong>
