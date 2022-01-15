@@ -1,8 +1,8 @@
 :root{
-    --primary-color:black;
+    --primary-color:0,0,0;
     --secondary-color: white;
     --primary-background: white;
-    --secondary-background: #505D75;
+    --secondary-background: 80, 93, 117;
     --teritary-background: #EE8055;
     --headers: 45, 48, 66;
     --line: #EEB955;
@@ -12,17 +12,17 @@
 .navbar1{
     background-color: var(--secondary-background);
     height: 6.5vh;
+.navbar{
+    background-color: rgb(var(--secondary-background));
+    height: 6vh;
     padding: 0;
 }
-
 .logo{
-    
     height: 15vh ;
     display: inline-block;
     background-color: var(--primary-background);
     padding-top:40px;
 }
-
 .donateBtn{
     background-color: var(--teritary-background);
     border: none;
@@ -56,7 +56,6 @@
 .nav1 a:hover, .nav1 a:active {
     background-color:rgba(var(--headers), 0.5) ;
    border-radius: 20px;
-
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -69,40 +68,148 @@
     justify-content: end;
     padding-right: 20px;
 }
+.navbar-nav a{
+    text-decoration: none;
+}
 
-/* ---------------- SMALLER SCREENS ADJUSTMENT ---------------- */
+.navbar2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
 
-@media  screen and (max-width:768px) {
+.nav2-link{
+    color: rgba(var(--headers), 1);
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.m-hours{
+    list-style: none;
+    margin: 0;
+    padding: 5px 2px;
+}
+.fa-clock, .fa-map-marker-alt{
+    color: var(--teritary-background);
+    font-size: 35px;
+    padding: 5px;
+}
+/*---------HERO-------- */
+.carousel-images{
+    height: 80vh;
+    object-fit: cover;
+}
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(var(--headers), 0.5) 
+  }
+ 
+  .carousel-caption {
+    position: absolute;
+    text-align: start;
+    bottom: 15%;
+    left: 15%;
+    z-index: 1;
+    color: white;
+    padding: 5px 25px;
+    background-color:rgba(var(--primary-color), 0.70);
+    height: 150px; 
+  }
 
     .logo{
         padding-top: 0;
         height: 6.5vh;
         
     }
+  .caption-header{
+      font-weight: bold;
+      font-size: 18px;
+      text-transform: uppercase;
+  }
+  .caption-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.fa-chevron-left, .fa-chevron-right{
+    color: black;
+    font-size: 70px;
+  }
+  .carousel-control-prev, .carousel-control-next{
+      padding-top: 45vh;
+  }
+  .cover{
+    object-fit: cover;
+    width: 100%;
+    max-height: 40vh;
+  }
 
-    .navbar-toggler{
-        border:0;
-        margin-right: 1rem;
-        padding: 0;
-    }
-    .show{
-        background-color: var(--secondary-background);
-    }
-    .nav-link{
-        margin-left: 1rem;
-        color:var(--secondary-color)
-    }
-    .fas{
-        font-size: 2.9rem;
-        color: var(--secondary-color);
-    }
-    .nav-item a{
-        color: var(--secondary-color);
-    }
-    .nav-item a:hover{
-        color: var(--secondary-color);
-    }
-    
+  /* NEWSLETTER */
+  .newsletter{
+    background-color: var(--teritary-background);
+    color: var(--secondary-color);
+  }
+  .yellowBorder{
+      border: solid 3px var(--line);
+  }
+
+  .image-container {
+    position: relative;
+  }
+
+  .image-caption{
+    position: absolute;
+    text-align: start;
+    width: 100%;
+    right: 0%;
+   /* overflow: hidden; */
+    bottom: 5px;
+    color: white;
+    padding: 5px 25px;
+    background-color:rgba(var(--primary-color), 0.8);
+    /* height: 50px;  */
+  }
+
+  .exHeight{
+      height: 400px;
+      object-fit: cover;
+  }
+ 
+  .titleText{
+    color: white;
+    font-size: 2rem;
+}
+
+  /* EXHIBITIONS */
+
+  .wrapper{
+    overflow: hidden;
+    max-width: 31vw;
+    max-height: auto;
+}
+
+/* FOOTER */
+.orangeHeader{
+    text-transform: uppercase;
+    color: var(--teritary-background);
+}
+.footerP{
+    color: rgb(var(--secondary-background));
+}
+
+.footerContent{
+    padding: 5px 0 0 40px;
+}
+
+.fab{
+    color: rgb(var(--secondary-background));
+    font-size: 50px;
 }
     
 .titleMargin{
@@ -111,14 +218,12 @@
 
 .titleBg{
     background-color: #2D3042;
+    background-color: rgb(var(--headers));
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
-.titleText{
-    color: white;
-    font-size: 3vw;
-}
+
 
 .paragraphMargin{
     margin: 3% 0 3% 8%;
@@ -208,3 +313,158 @@
     padding-left: 6%;
 }
 
+.blueBtn{
+    color: white;
+    background-color: rgb(var(--secondary-background));
+    width: 20vw;
+}
+
+
+/* ---------------- SMALLER SCREENS ADJUSTMENT ---------------- */
+
+@media  screen and (max-width:768px) {
+
+    .logo{
+        padding-top: 0;
+        height: 6vh;
+    }
+
+    .navbar-toggler{
+        border:0;
+        margin-right: 1rem;
+        padding: 0;
+    }
+    .navbar-nav{
+        background-color: rgb(var(--secondary-background));
+        z-index: 20;
+        width: 100%;
+        padding: 0 20px;
+        
+    }
+    .show{
+        background-color: var(--secondary-background);
+    }
+    .nav-link{
+        margin-left: 1rem;
+        color:var(--secondary-color)
+    }
+    .fas{
+        font-size: 2.5rem;
+    }
+    .nav-item a{
+        color: var(--secondary-color);
+    }
+    .nav-item a:hover{
+        color: var(--secondary-color);
+    }
+    .nav-item{
+        border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+    }
+    .donateContainer{
+        display: flex;
+        justify-content: end;
+        flex-grow: 2;
+        padding: 0 20px;
+    }
+    .donateBtn{
+        margin: 0;
+       
+    }
+    .navbar-collapse{
+        display: flex;
+        justify-content: end;
+        padding-right: 0;
+    }
+    .carousel-caption {
+        position: absolute;
+        text-align: start;
+        bottom: 5%;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        color: white;
+        padding: 5px 70px;
+        height: 150px; 
+      }
+      .caption-header{
+          font-weight: bold;
+          font-size: 1.7vh;
+      }
+      .caption-title{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .carousel-caption p, .caption-header p{
+        font-size: 0.9rem;
+    }
+    .fa-chevron-left, .fa-chevron-right{
+        color: black;
+        font-size: 70px;
+      }
+      .carousel-images{
+        height: 50vh;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        width: 10%;
+        padding-top: 25vh;
+    }
+
+    .cover{
+        object-position: 100% 40%;
+      }
+    
+      .newsletterSM{
+        background-color: var(--teritary-background);
+        color: var(--secondary-color);
+        height: 3.5rem;
+      }
+      .titleText{
+        color: white;
+        font-size: 2rem;
+      }
+
+      .footerContent{
+        padding: 5px 0 0 30px;
+    }
+    
+}
+@media  screen and (max-width:425px) {
+    .caption-header{
+        font-size: 1.4vh;
+    }
+    .caption-title{
+      font-size: 1.1rem;
+  }
+  .carousel-caption p, .caption-header p{
+      font-size: 0.8rem;
+  }
+  .fa-chevron-left, .fa-chevron-right{
+      color: rgb(83, 83, 83);
+      font-size: 50px;
+    }
+  .carousel-control-next {
+      padding-right: 10px;
+  }
+  .carousel-control-prev{
+      padding-left: 10px;
+  }
+  .carousel-caption {
+    bottom: 1%;
+    padding: 10px 40px 5px 40px;
+    height: 150px; 
+  }
+  .carousel-control-next, .carousel-control-prev{
+    padding-top: 30vh;
+}
+.titleText{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.blueBtn{
+    color: white;
+    background-color: rgb(var(--secondary-background));
+    width: 50vw;
+}
+
+}
