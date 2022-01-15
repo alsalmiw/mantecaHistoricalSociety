@@ -12,6 +12,7 @@
 .navbar1{
     background-color: var(--secondary-background);
     height: 6.5vh;
+}
 .navbar{
     background-color: rgb(var(--secondary-background));
     height: 6vh;
