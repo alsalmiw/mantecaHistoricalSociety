@@ -182,7 +182,7 @@
 
   .wrapper{
     overflow: hidden;
-    /* max-width: 31vw; */
+    max-width: 31vw;
     max-height: auto;
 }
 
