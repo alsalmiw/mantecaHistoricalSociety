@@ -240,7 +240,7 @@
 }
 
 .secondBg{
-    background-color: var(--secondary-background);
+    background-color: rgb( var(--secondary-background));
     padding-top: 3%;
 }
 
