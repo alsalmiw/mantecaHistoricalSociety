@@ -27,7 +27,7 @@
 .donateBtn{
     background-color: var(--teritary-background);
     border: none;
-    margin-top: 1%;
+    margin-top: 5%;
     margin-right: 15px;
     color:var(--secondary-color);
     font-weight: 600;
@@ -246,7 +246,7 @@
 
 .historyParagraph{
     color: white;
-    margin: 0 0 3% 5%;
+    margin: 0 3% 3% 5%;
     font-size: 2vw;
 }
 
@@ -258,7 +258,7 @@
 
 
 .docentParagraph{
-    margin: 0 0 3% 5%;
+    margin: 0 3% 3% 5%;
     font-size: 2vw;
     padding-top: 3%;
 }
@@ -318,13 +318,14 @@
     color: white;
     background-color: rgb(var(--secondary-background));
     width: 20vw;
+    margin-top: 10px;
 }
 
 
 /* ---------------- SMALLER SCREENS ADJUSTMENT ---------------- */
 
 @media  screen and (max-width:768px) {
-
+   
     .logo{
         padding-top: 0;
         height: 6vh;
@@ -421,7 +422,7 @@
       }
       .titleText{
         color: white;
-        font-size: 2rem;
+        font-size: 1.8rem;
       }
 
       .footerContent{
@@ -434,19 +435,17 @@
         margin: 5px;
         padding: 0;
     }
-    .order2{
-        order: 2;
-    }
-    .order3{
-        order: 3;
-    }
-    .order4{
-        order: 4;
-    }
-
     
 }
 @media  screen and (max-width:425px) {
+    .logo{
+        padding-top: 0;
+        height: 5vh;
+    }
+    .navbar1{
+        height: 5vh;
+    }
+
     .caption-header{
         font-size: 1.4vh;
     }
@@ -492,6 +491,38 @@
     max-height: auto;
     margin: 5px;
     padding: 0;
+}
+
+.footerContent{
+    padding-right: 20px;
+}
+.footerP{
+   font-size: 15px;
+}
+.orangeHeader{
+    font-size: 18px;
+}
+.fab{
+    font-size: 30px;
+}
+
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.order3{
+    order: 3;
+}
+.order4{
+    order: 4;
+}
+.order5{
+    order: 5;
+}
+.order6{
+    order: 6;
 }
 
 }
