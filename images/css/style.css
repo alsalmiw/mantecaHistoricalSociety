@@ -86,10 +86,6 @@
     text-decoration: none;
     font-weight: 600;
 }
-
-.nav2-link:hover{
-    color: rgba(var(--headers), 1);
-}
 .m-hours{
     list-style: none;
     margin: 0;
@@ -188,7 +184,7 @@
     text-transform:uppercase;
 }
 .newsletterImg{
-    width: 50vw;
+    height: 60vw;
 }
 
 .newsHeader{
@@ -316,7 +312,7 @@
 .donateTitle{
     margin-left: 5%;
     color: black;
-    font-size: 25px;
+    font-size: 3vw;
     padding-top: 3%;
     padding-bottom: 3%;
 }
@@ -327,7 +323,7 @@
 
 .cardMargin{
     margin-bottom: 5%;
-   
+    padding-left: 6%;
 }
 
 .blueBtn{
@@ -336,9 +332,7 @@
     width: 20vw;
     margin-top: 10px;
 }
-.blueBtn:hover{
-    color: white;
-}
+
 
 /* ---------------- SMALLER SCREENS ADJUSTMENT ---------------- */
 
@@ -453,46 +447,6 @@
         margin: 5px;
         padding: 0;
     }
-
-    .locationMargin{
-        margin: 0 1% 0 1%;
-        width: 98vw;
-    }
-
-    .radioMarginLeft{
-        margin-left: 5%;
-       }
-       .radioMargin, .formMarginLeft{
-           margin-left: 2%;
-       }
-       .formWidth{
-           margin: 0 2% 0 2%;
-           width: 96vw;
-       
-       }
-       
-       .btnMargin{
-           margin-right: 2%;
-       }
-
-    .order1{
-        order: 1;
-    }
-    .order2{
-        order: 2;
-    }
-    .order3{
-        order: 3;
-    }
-    .order4{
-        order: 4;
-    }
-    .order5{
-        order: 5;
-    }
-    .order6{
-        order: 6;
-    }
     
 }
 @media  screen and (max-width:425px) {
@@ -557,23 +511,51 @@
 .footerP, .paragraphMargin, .historyParagraph, .docentParagraph, .radioMargin, .formMarginLeft, .btnMargin, .location, .radioMarginLeft{
    font-size: 15px;
 }
-.donateTitle{
-    font-size: 20px;
+.radioMarginLeft{
+ margin-left: 5%;
 }
+.radioMargin, .formMarginLeft{
+    margin-left: 2%;
+}
+.formWidth{
+    margin: 0 2% 0 2%;
+    width: 96vw;
 
+}
+.locationMargin{
+    margin: 0 1% 0 1%;
+    width: 98vw;
+}
+.btnMargin{
+    margin-right: 2%;
+}
 .orangeHeader{
     font-size: 18px;
 }
 .fab{
     font-size: 30px;
 }
-
 .bTitleText{
     font-size: 20px;
 }
 
-.newsletterImg{
-    width: 90vw;
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.order3{
+    order: 3;
+}
+.order4{
+    order: 4;
+}
+.order5{
+    order: 5;
+}
+.order6{
+    order: 6;
 }
 
 }
