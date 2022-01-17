@@ -453,6 +453,46 @@
         margin: 5px;
         padding: 0;
     }
+
+    .locationMargin{
+        margin: 0 1% 0 1%;
+        width: 98vw;
+    }
+
+    .radioMarginLeft{
+        margin-left: 5%;
+       }
+       .radioMargin, .formMarginLeft{
+           margin-left: 2%;
+       }
+       .formWidth{
+           margin: 0 2% 0 2%;
+           width: 96vw;
+       
+       }
+       
+       .btnMargin{
+           margin-right: 2%;
+       }
+
+    .order1{
+        order: 1;
+    }
+    .order2{
+        order: 2;
+    }
+    .order3{
+        order: 3;
+    }
+    .order4{
+        order: 4;
+    }
+    .order5{
+        order: 5;
+    }
+    .order6{
+        order: 6;
+    }
     
 }
 @media  screen and (max-width:425px) {
@@ -520,24 +560,7 @@
 .donateTitle{
     font-size: 20px;
 }
-.radioMarginLeft{
- margin-left: 5%;
-}
-.radioMargin, .formMarginLeft{
-    margin-left: 2%;
-}
-.formWidth{
-    margin: 0 2% 0 2%;
-    width: 96vw;
 
-}
-.locationMargin{
-    margin: 0 1% 0 1%;
-    width: 98vw;
-}
-.btnMargin{
-    margin-right: 2%;
-}
 .orangeHeader{
     font-size: 18px;
 }
@@ -551,25 +574,6 @@
 
 .newsletterImg{
     width: 90vw;
-}
-
-.order1{
-    order: 1;
-}
-.order2{
-    order: 2;
-}
-.order3{
-    order: 3;
-}
-.order4{
-    order: 4;
-}
-.order5{
-    order: 5;
-}
-.order6{
-    order: 6;
 }
 
 }
