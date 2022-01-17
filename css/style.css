@@ -327,7 +327,7 @@
 
 .cardMargin{
     margin-bottom: 5%;
-    padding-left: 6%;
+   
 }
 
 .blueBtn{
@@ -336,7 +336,9 @@
     width: 20vw;
     margin-top: 10px;
 }
-
+.blueBtn:hover{
+    color: white;
+}
 
 /* ---------------- SMALLER SCREENS ADJUSTMENT ---------------- */
 
