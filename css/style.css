@@ -183,7 +183,9 @@
     font-size: 2rem;
     text-transform:uppercase;
 }
-
+.newsletterImg{
+    height: 60vw;
+}
   /* EXHIBITIONS */
 
   .exhibitsContainer{
